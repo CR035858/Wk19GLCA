@@ -1,0 +1,23 @@
+nav {
+  font-size: 14px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 0.75rem;
+  padding: 0.25rem 1.0rem;
+  margin: 0 0.25rem;
+  border-bottom: 0.25rem solid black;
+  transition: all 0.25s;
+}
+
+nav li:hover, nav li.active {
+  border-color: teal;
+  color: teal;
+}

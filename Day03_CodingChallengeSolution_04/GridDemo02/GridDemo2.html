@@ -1,0 +1,29 @@
+<!doctype html>
+<title>Example</title>
+<style>
+ body {
+        background: #CBDCF7;
+        margin: 0;
+      }
+.grid { 
+  display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ /* grid-template-columns: 2fr 2fr 2fr;*/
+  grid-gap: 20px;
+  align-items: stretch;
+  justify-items: center;
+  }
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 150%
+}
+</style>
+<main class="grid">
+  <img src="img_flwr.gif" alt="Sample photo">
+  <img src="img_tree.gif" alt="Sample photo">
+  <img src="bg2.jpg" alt="Sample photo">
+  <img src="background-origin.gif" alt="Sample photo">
+  <img src="img_tree.gif" alt="Sample photo">
+  <img src="bgImage.jpg" alt="Sample photo">
+</main>

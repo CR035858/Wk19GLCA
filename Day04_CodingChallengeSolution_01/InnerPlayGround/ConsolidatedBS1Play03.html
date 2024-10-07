@@ -1,0 +1,160 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ 
+<!-- If IE use the latest rendering engine -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+<!-- Set the page to the width of the device and set the zoon level -->
+<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Bootstrap Tutorial</title>
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<style>
+#nttlogo
+{
+height: 100px;
+width: 100px;
+}
+.jumbotron{
+    background-color:#2E2D88;
+    color:white;
+}
+/* Adds borders for tabs */
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+.nav-tabs {
+    margin-bottom: 0;
+}
+.top-container
+{
+	margin: 20px 20px 20px 20px;
+ 
+}
+.container
+{
+	margin: 10px 10px 10px 10px;
+	border : 2px solid green;
+	padding : 3px;
+}
+label
+{
+	color:blue;
+}
+</style>
+ 
+</head>
+<body>
+ 
+<!-- CONTAINERS -->
+<!-- container puts padding around itself while container-fluid fills the whole screen. Bootstap grids require a container. -->
+<div class="top-container">
+ 
+<!-- page-header adds space aroundtext and enlarges it. It also adds an underline at the end -->
+<div class="page-header">
+<h1>Bootstrap Tutorial</h1>
+</div>
+ 
+<!-- jumbotron enlarges fonts and puts everything in a gray box with rounded corners. If jumbotron is outside a container it fills the total width. You can change the styles by placing the changes after the Bootstrap CDN link -->
+<div class="container">
+<label>JUMBOTRON</label>
+<div class="jumbotron">
+<p>2021 Vidhan Sabha Election Results Live Coverage: The counting of votes for West Bengal, Tamil Nadu, Kerala, Assam, Puducherry assembly elections is now heading towards conclusion. The Nandigram seat is witnessing several twist and turn as first Mamata Banerjee was declared winner and later, Suvendu Adhikari was said to have defeated Banerjee. Now the TMC has tweeted informing that the counting is not over yet and asked people not to speculate. While Mamata Banerjee-led TMC is on its way of securing decisive majority with over 215 seats leaving the BJP’s challenge behind in West Bengal, the LDF led by Pinarayi Vijayan is way ahead of majority mark as per latest trends. The Assam is going again to the NDA while Puducherry has voted for a new government led by the BJP. In Tamil Nadu, MK Stalin-led DMK is ahead of the ruling AIADMK and is set to form government with a simple majority. While the BJP is likely to get somewhere around 80 seats in Bengal, the DMK is hovering around 140 seats in Tamil Nadu against the AIADMK which is likely to close its tally around 90 seats. In Kerala, LDF is expected to win around 90 seats and the UDF around 45 seats. In Assam, the BJP is expected to win around 80 seats while the Congress is lagging behind at 46 seats. In Puducherry, the NDA is ahead of the SDA by leading on 9 seats.</p>
+ 
+<!-- BUTTONS -->
+<!-- There are many built in button colors and sizes. If a link is to trigger in page functionality it should use role="button". The button element should be used in most situations -->
+<p>
+<a href="#" class = "btn btn-default btn-lg" role="button">More info</a>
+<button type="submit" class = "btn btn-danger" role = "button">Button</button>
+<input type="button" value="Info" class = "btn btn-info">
+<button type="submit" class = "btn-primary btn-sm">Primary</button>
+<button type="submit" class = "btn btn-success btn-xs">Success</button>
+<button type="submit" class = "btn btn-warning btn-lg">Warning</button>
+<button type="submit" class = "btn btn-link btn-lg">Link</button>
+ 
+<!-- You can disable buttons with disabled -->
+<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+ 
+<!-- You disable links in a similar way -->
+<a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+ 
+<!-- You can group buttons. You can size the buttons with btn-group-lg, btn-group-sm, or btn-group-xs -->
+<div class="btn-group btn-group-lg" role="group" aria-label="...">
+  <button type="button" class="btn btn-default">Small</button>
+  <button type="button" class="btn btn-default">Medium</button>
+  <button type="button" class="btn btn-default">Large</button>
+</div>
+ 
+</p>
+ 
+<!-- bootstraptut2.html -->
+ <!-------------------------------------GLYPHICON BASED BUTTONS----------------------------------------------------->
+<!-- ICONS -->
+<!-- Bootstrap has hundreds of free icons. http://getbootstrap.com/components/#glyphicons They can be used on their own or inside of buttons with a link or regular button for example. -->
+<p>
+<span class="glyphicon glyphicon-film"></span>
+ 
+<a href="#" class="btn btn-primary btn-lg">Trash <span class="glyphicon glyphicon-trash"></span></a>
+ 
+<button type="button" class="btn btn-default btn-lg">
+ 
+  <!-- aria-hidden hides decorative icons from screen readers -->
+  <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Call Me
+</button>
+</p>
+ 
+</div><!--JUmbotron ends -->
+</div><!--Div Container ends -->
+ <!-------------------------------------GLYPHICON BASED BUTTONS ENDS----------------------------------------------------->
+ <label>Contextual Colored Text With & without  Image</label>
+<div class="container">
+
+	<!-- ROUNDED IMAGES -->
+	<!-- Images marked as responsive have a max-width equal to the screen. You can add rounded corners with img-rounded, img-circle, and img-thumbnail. pull-left 	and pull-right will float images in the provided direction. center-block will place the image in the center. -->
+	<!-- <img src="img_flwr.gif" id="nttLogo" class="img-responsive img-thumbnail pull-left " alt="Responsive image">-->
+
+	<!-- <img src="img_flwr.gif" id="nttLogo" class="img-responsive img-circle pull-left " alt="Responsive image"> -->
+
+	<img src="intro_background.png" id="nttLogo" class="img-responsive img-circle pull-left " alt="Responsive image">
+	<!-- CONTEXTUAL COLORS -->
+	<!-- Contextual colors can be added to text -->
+		<p>
+			<span class="text-muted">Muted</span>
+			<span class="text-primary">Primary</span>
+			
+			<span class="text-success">Success</span>
+			<span class="text-info">Information</span>
+			<span class="text-warning">Warning</span>
+			<span class="text-danger">Danger</span> 
+			 
+			<h3 class="text-muted">Muted</h3>
+			<h3 class="text-primary">Primary</h3>
+			<h3 class="text-success">Success</h3>
+			<h3 class="text-info">Information</h3>
+			<h3 class="text-warning">Warning</h3>
+			<h3 class="text-danger">Danger</h3>
+</div>
+ <label>Text With Contextual Background Color</label>
+<div class="container">
+	
+			In Assam, the BJP is expected to win around 80 seats while the Congress is lagging behind at 46 seats. In Puducherry, the NDA is ahead of the 			SDA by leading on 9 seats.
+		</p>
+ 		
+	<!-- You can set contextual backgrounds -->
+		<p class="bg-primary">Primary</p>
+		<p class="bg-success">Success</p>
+		<p class="bg-info">Information</p>
+		<p class="bg-warning">Warning</p>
+		<p class="bg-danger">Danger</p>
+</div>
+</div> <!-- Top Container ends -->
+ 
+
+
+</body>
+</html>

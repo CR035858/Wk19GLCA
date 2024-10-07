@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+label
+{
+	color : blue;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<label>Carousel</label>
+	<!-- <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">-->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 	 <!-- Indicators -->
+  	<ol class="carousel-indicators">
+  		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+   		 <li data-target="#myCarousel" data-slide-to="1"></li>
+   		 <li data-target="#myCarousel" data-slide-to="2"></li>
+  	</ol> <!-- -->
+
+ 	 <!-- Wrapper for slides -->
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+  			<img src="bg2.jpg" class="d-block w-100" alt="Los Angeles">
+    			<div class="carousel-caption">
+				<h4>First Carousel</h4>	
+				<p>Elections were held amidst Corona</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="img_flwr.gif" class="d-block w-100" alt="Chicago">
+			<div class="carousel-caption">
+				<h4>Second Carousel</h4>	
+				<p>Corona Rules were totally flouted</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+    			<img src="bgImage.jpg" class="d-block w-100" alt="New York">
+			<div class="carousel-caption">
+				<h4>Third Carousel</h4>	
+				<p>Resulting in drastic increment in Covid Infections</p>
+			</div>
+    		</div>
+  	</div>
+
+ <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="Button">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next" role="Button">
+    <span class="carousel-control-next-icon"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+<!-- Compiled and Minified Bootstrap JavaScript-->
+</body>

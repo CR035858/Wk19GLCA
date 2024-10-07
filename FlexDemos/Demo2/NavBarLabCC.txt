@@ -1,0 +1,17 @@
+Create a Nav Bar with Menu Items
+Home
+About
+Products
+Services
+Contact
+
+When each of the Menu Item is hovered , 
+the respective DropDown should be made available
+but here for practice sake,  create atleast one drop down for "Products"
+with the sub menu Items (options):
+
+Electronics
+Cosmetics
+Home Applicances
+Hardware
+Software

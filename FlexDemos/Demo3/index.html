@@ -1,0 +1,50 @@
+<html>
+<head>
+<link href="stylesheet.css" />
+<style>
+body{
+        background: #CBDCF7;
+        margin: 0;
+}
+nav 
+{
+  font-size: 14px;
+}
+
+nav ul {
+ display: flex;/*  */
+  flex-wrap: wrap;
+  justify-content: end;
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 0.75rem;
+  padding: 0.25rem 1.0rem;
+  margin: 0 0.25rem;
+  border-bottom: 0.25rem solid black;
+  transition: all 0.25s;
+}
+
+nav li:hover {
+  border-color: teal;
+  color: teal;
+}
+nav li.active {
+  border-color: red;
+  color: red;
+}
+</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li class="active">Home</li>
+    <li>About us</li>
+    <li>Fee Details</li>
+    <li>Blog</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+</body>
+</html>

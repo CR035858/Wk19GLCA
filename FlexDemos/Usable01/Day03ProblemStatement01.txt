@@ -1,0 +1,18 @@
+1) Create a Web Page for a AI Division to display information about the AI under the following heads:
+a) What are AI Tools
+b) Benefits of AI
+c) Best AI tools of 2023
+d) AI Video Generators & Editors
+e) AI Writing tools and Text generators
+
+Implement the above in a Card Layout with brief shadows for every Card with appropriate images using FLEX and its properties like flex-wrap.
+
+The Sample Output is as shown Below:
+
+2)
+Create a Web Page for a News Publisher for their online issue, 
+Page should show The Images & Corresponding news in the following format using FLEX and its Properties like FLEX Wrap, flex-direction etc.
+
+The Sample Output is as shown below:
+
+

@@ -1,0 +1,20 @@
+Create a Nav Bar with Menu Items
+Home
+About
+Products
+Services
+Contact
+
+When each of the Menu Item is selected the respective DropDown should be available
+but here atleast create one drop down for "Products"
+with the options:
+
+Electronics
+Cosmetics
+Home Applicances
+Hardware
+Software
+
+Without Using Descendant selectors like nth child, you can use 
+pseudo class selector like a: hover / link etc 
+
